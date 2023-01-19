@@ -10,7 +10,6 @@
   font-family: Kumbh sans;
 }
 .navbar{
-  /* background: #131313; */
   background-color: black;
   height: 80px;
   display: flex;
@@ -106,7 +105,6 @@
   height: 30px;
   margin-right: 5px;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
@@ -193,7 +191,8 @@
       transition: all 0.5s ease-in-out;
       background: #fff;
     }
-    .navbar__item
+    .navbar__item,
+    .search__container
     {
       width: 100%;
     }
@@ -203,6 +202,16 @@
       padding: 2rem;
       width: 100%;
       display: table;
+    }
+    .search__container{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      max-width: 800px;
+      width: 100%;
+      padding-top: 10px;
+      padding-left: 10px;
     }
     #mobile-menu
     {
